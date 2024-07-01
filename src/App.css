@@ -26,9 +26,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
-h1{
-  color: white;
-}
+
 body {
   font-weight: 400;
   overflow-x: hidden;
