@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Mohini, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a full stack web developer with a passion for creating interactive and responsive web applications.I have experience working with JavaSript, React, Node.js,MongoDB, Java, HTML, CSS and Git. I am always a quick learner and I am always looking to expand my knowledege and skill set. I am a team player and I am excited to wrk with others to utilize my skills.</p>
                   
-                  <button className="vvd"><span>Download Resume</span></button>
+                  <a href="https://drive.google.com/file/d/1PnOQexz1z1mBucmGTQbEcMYaDiAUs0br/view?usp=sharing" target="_blank" style={{textDecoration:"none"}}><button className="vvd" >Download Resume</button></a>
               </div>}
             </TrackVisibility>
           </Col>
