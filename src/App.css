@@ -37,8 +37,10 @@ body {
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1{
+  color: white;
+}
+h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -54,12 +56,17 @@ p, a, li, button, ul {
 a:hover {
   text-decoration: none;
 }
-
+.item{
+  display: flex ;
+  justify-content: center;
+}
 img {
   width: 100%;
   height: auto;
 }
-
+.react-multi-carousel-list.owl-carousel.owl-theme.skill-slider {
+  justify-content: center;
+}
 button {
   border: 0;
   background-color: transparent;
@@ -352,10 +359,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .item{
   display: flex ;
   justify-content: center;
+  text-align: center;
 }
-/* li h5{
-  display: flex;
-} */
+
+
+
+
+
+
+
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
