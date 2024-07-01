@@ -5,6 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon5 from '../lc.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -51,10 +52,12 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/mohini-hazra/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100071904181970" target="_blank"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/mohini.hzr/" target="_blank"><img src={navIcon3} alt="" /></a>
-                <a href="https://github.com/hazra-mohini" target="_blank"><img src={navIcon4} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mohini-hazra/" target="_blank"><img src={navIcon1} alt="Linkedin" /></a>
+                <a href="https://leetcode.com/u/hazramohini48/" target="_blank"><img src={navIcon5} alt="Leetcode" /></a>
+
+                {/* <a href="https://www.facebook.com/profile.php?id=100071904181970" target="_blank"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/mohini.hzr/" target="_blank"><img src={navIcon3} alt="" /></a> */}
+                <a href="https://github.com/hazra-mohini" target="_blank"><img src={navIcon4} alt="Github" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
